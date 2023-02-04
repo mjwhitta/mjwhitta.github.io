@@ -1,0 +1,163 @@
+[
+  {
+    "comment": "For fun"
+  },
+  {
+    "desc": "Art for your TTY",
+    "get": "go install github.com/mjwhitta/artty/cmd/arTTY@latest",
+    "img": "https://raw.githubusercontent.com/mjwhitta/artty/main/imgs/screenshot.png",
+    "name": "ArTTY",
+    "repo": "artty"
+  },
+  {
+    "comment": "Security tools"
+  },
+  {
+    "desc": "Red Team Arch Linux installer",
+    "get": "curl -k -L -s get.archnemesis.nation-state.org",
+    "name": "ArchNemesis",
+    "repo": "archnemesis"
+  },
+  {
+    "desc": "Blah blah blah shellcode...",
+    "get": "go install github.com/mjwhitta/babble/cmd/babble@latest",
+    "name": "Babble",
+    "repo": "babble"
+  },
+  {
+    "desc": "Koppeling-like tool written in Go for Go",
+    "get": "go install github.com/mjwhitta/cplib/cmd/cplib@latest",
+    "name": "Copy Lib",
+    "repo": "cplib"
+  },
+  {
+    "desc": "Go example code for creating DLLs",
+    "get": "git clone https://github.com/mjwhitta/godll.git",
+    "name": "GoDLL",
+    "repo": "godll"
+  },
+  {
+    "desc": "This dog's byte is much worse than its bark",
+    "get": "git clone https://github.com/mjwhitta/godoggo.git",
+    "name": "GoDogGo",
+    "repo": "godoggo"
+  },
+  {
+    "desc": "Network Utility Swiss-Army Knife similar to socat",
+    "get": "go install github.com/mjwhitta/nutsak/cmd/sak@latest",
+    "name": "NUtSAK",
+    "repo": "nutsak"
+  },
+  {
+    "desc": "Simple tool to obfuscate strings in payloads",
+    "get": "go install github.com/mjwhitta/obfs/cmd/obfstr@latest",
+    "name": "Obfs",
+    "repo": "obfs"
+  },
+  {
+    "desc": "One-Time-Padlock",
+    "get": "go install github.com/mjwhitta/otplock/cmd/otplock@latest",
+    "name": "OTPlock",
+    "repo": "otplock"
+  },
+  {
+    "desc": "Simulate ransomware behavior and techniques",
+    "get": "go get github.com/mjwhitta/ransimware@latest",
+    "name": "Ransimware",
+    "repo": "ransimware"
+  },
+  {
+    "desc": "Simple shellcode injector",
+    "get": "go get github.com/mjwhitta/runsc@latest",
+    "name": "RunSC",
+    "repo": "runsc"
+  },
+  {
+    "comment": "Utilities"
+  },
+  {
+    "desc": "Your reverse proxy feeling bloated? Try a NAP!",
+    "get": "docker pull ghcr.io/mjwhitta/nap:latest",
+    "name": "Nginx App Proxy (NAP)",
+    "repo": "nap"
+  },
+  {
+    "desc": "Quickly open CLI search results in your favorite editor",
+    "get": "gem install ruby-zoom",
+    "img": "https://raw.githubusercontent.com/mjwhitta/zoom/main/imgs/screenshot.png",
+    "name": "Zoom",
+    "repo": "zoom"
+  },
+  {
+    "desc": "Wrapper for Go's flag package",
+    "get": "go get github.com/mjwhitta/cli@latest",
+    "name": "cli",
+    "repo": "cli"
+  },
+  {
+    "desc": "Errors package that prepends the package name",
+    "get": "go get github.com/mjwhitta/errors@latest",
+    "name": "errors",
+    "repo": "errors"
+  },
+  {
+    "desc": "Fragment your data then put it back together again",
+    "get": "go get github.com/mjwhitta/frgmnt@latest",
+    "name": "frgmnt",
+    "repo": "frgmnt"
+  },
+  {
+    "desc": "Makefile solution for Go projects",
+    "get": "git clone https://github.com/mjwhitta/gomk.git",
+    "name": "gomk",
+    "repo": "gomk"
+  },
+  {
+    "desc": "Go package providing string color methods",
+    "get": "go install github.com/mjwhitta/hilighter/cmd/hl@latest",
+    "name": "hilighter",
+    "repo": "hilighter"
+  },
+  {
+    "desc": "A minimal, cross-platform HTTP client interface for Go",
+    "get": "go get github.com/mjwhitta/inet@latest",
+    "name": "inet",
+    "repo": "inet"
+  },
+  {
+    "desc": "Extensible Go logger",
+    "get": "go get github.com/mjwhitta/log@latest",
+    "name": "log",
+    "repo": "log"
+  },
+  {
+    "desc": "Easy PKI management",
+    "get": "go install github.com/mjwhitta/pki/cmd/certify@latest",
+    "name": "pki",
+    "repo": "pki"
+  },
+  {
+    "desc": "Thread pool implementation for Go",
+    "get": "go get github.com/mjwhitta/threadpool@latest",
+    "name": "threadpool",
+    "repo": "threadpool"
+  },
+  {
+    "desc": "Go library for simple UDP transmission",
+    "get": "go get github.com/mjwhitta/udpfrags@latest",
+    "name": "udpfrags",
+    "repo": "udpfrags"
+  },
+  {
+    "desc": "Windows API/constants, identity, and WinHTTP/WinINet for Go",
+    "get": "go get github.com/mjwhitta/win@latest",
+    "name": "win",
+    "repo": "win"
+  },
+  {
+    "desc": "Automagic Go/CGO cross-compiling",
+    "get": "go install github.com/mjwhitta/xgo/cmd/xgo@latest",
+    "name": "xgo",
+    "repo": "xgo"
+  }
+]

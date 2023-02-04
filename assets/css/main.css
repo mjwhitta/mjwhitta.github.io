@@ -1,0 +1,112 @@
+/* Inserting style for smooth scrolling. */
+#heightPage {
+  left: 0;
+}
+#heightPage, #heightScroll {
+  position: absolute;
+  top: 0;
+  width: 8px;
+  z-index: 99;
+}
+#heightScroll {
+  right: 0;
+}
+#scroll-animate {
+  overflow: hidden;
+}
+#scroll-animate-main {
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+/* Inserting style for basic layout structure. */
+.content {
+  position: relative;
+  z-index: 1;
+}
+.wrapper-parallax {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 256px;
+  margin-top: 100%;
+}
+footer {
+  bottom: 0;
+  height: 160px;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+header {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+/* Inserting style to align the title of sections. */
+.content h1 {
+  margin: 1%;
+}
+h1 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Inserting style animations for layout. */
+#scroll-animate-main, footer, header {
+  -moz-transition-duration: 0.4s;
+  -moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+/* Inserting style for colors and font. */
+* {
+  font-family: "Droid Sans Mono";
+}
+.comment {
+  color: #6272a4;
+}
+.content {
+  background: #282a36;
+  color: #f8f8f2;
+  font-size: 32px;
+  line-height: 32px;
+}
+.content h1 {
+  text-align: left;
+}
+footer {
+  background: #21222c;
+  color: #f8f8f2;
+  font-size: 32px;
+  line-height: 32px;
+}
+header {
+  background: url(../imgs/bg-header.png) no-repeat 50% 50%, #282a36;
+  color: #bd93f9;
+  font-size: 128px;
+  line-height: 128px;
+}
+.keyword1 {
+  color: #bd93f9
+}
+.keyword2 {
+  color: #50fa7b
+}
+.link {
+  color: #f8f8f2;
+}
+.string {
+  color: #8be9fd
+}
