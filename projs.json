@@ -1,0 +1,128 @@
+[
+  {
+    "comment": "For fun"
+  },
+  {
+    "desc": "Art for your TTY",
+    "get": "go install github.com/mjwhitta/artty/cmd/arTTY@latest",
+    "img": "https://raw.githubusercontent.com/mjwhitta/artty/main/imgs/screenshot.png",
+    "name": "ArTTY"
+  },
+  {
+    "comment": "Security tools"
+  },
+  {
+    "desc": "Red Team Arch Linux installer",
+    "get": "curl -k -L -s get.archnemesis.nation-state.org",
+    "name": "ArchNemesis"
+  },
+  {
+    "desc": "Blah blah blah shellcode...",
+    "get": "go install github.com/mjwhitta/babble/cmd/babble@latest",
+    "name": "Babble"
+  },
+  {
+    "desc": "This dog's byte is much worse than its bark",
+    "get": "git clone https://github.com/mjwhitta/godoggo.git",
+    "name": "GoDogGo"
+  },
+  {
+    "desc": "Network Utility Swiss-Army Knife similar to socat",
+    "get": "go install github.com/mjwhitta/nutsak/cmd/sak@latest",
+    "name": "NUtSAK"
+  },
+  {
+    "desc": "Simple tool to obfuscate strings in payloads",
+    "get": "go install github.com/mjwhitta/obfs/cmd/obfstr@latest",
+    "name": "Obfs"
+  },
+  {
+    "desc": "One-Time-Padlock",
+    "get": "go install github.com/mjwhitta/otplock/cmd/otplock@latest",
+    "name": "OTPlock"
+  },
+  {
+    "desc": "Simulate ransomware behavior and techniques",
+    "get": "go get github.com/mjwhitta/ransimware@latest",
+    "name": "Ransimware"
+  },
+  {
+    "desc": "Simple shellcode injector",
+    "get": "go get github.com/mjwhitta/runsc@latest",
+    "name": "RunSC"
+  },
+  {
+    "comment": "Utilities"
+  },
+  {
+    "desc": "Your reverse proxy feeling bloated? Try a NAP!",
+    "get": "docker pull ghcr.io/mjwhitta/nap:latest",
+    "name": "Nginx App Proxy (NAP)"
+  },
+  {
+    "desc": "Quickly open CLI search results in your favorite editor",
+    "get": "gem install ruby-zoom",
+    "img": "https://raw.githubusercontent.com/mjwhitta/zoom/main/imgs/screenshot.png",
+    "name": "Zoom"
+  },
+  {
+    "desc": "Wrapper for Go's flag package",
+    "get": "go get github.com/mjwhitta/cli@latest",
+    "name": "cli"
+  },
+  {
+    "desc": "Errors package that prepends the package name",
+    "get": "go get github.com/mjwhitta/errors@latest",
+    "name": "errors"
+  },
+  {
+    "desc": "Fragment your data then put it back together again",
+    "get": "go get github.com/mjwhitta/frgmnt@latest",
+    "name": "frgmnt"
+  },
+  {
+    "desc": "Makefile solution for Go projects",
+    "get": "git clone https://github.com/mjwhitta/gomk.git",
+    "name": "gomk"
+  },
+  {
+    "desc": "Go package providing string color methods",
+    "get": "go install github.com/mjwhitta/hilighter/cmd/hl@latest",
+    "name": "hilighter"
+  },
+  {
+    "desc": "A minimal, cross-platform HTTP client interface for Go",
+    "get": "go get github.com/mjwhitta/inet@latest",
+    "name": "inet"
+  },
+  {
+    "desc": "Extensible Go logger",
+    "get": "go get github.com/mjwhitta/log@latest",
+    "name": "log"
+  },
+  {
+    "desc": "Easy PKI management",
+    "get": "go install github.com/mjwhitta/pki/cmd/certify@latest",
+    "name": "pki"
+  },
+  {
+    "desc": "Thread pool implementation for Go",
+    "get": "go get github.com/mjwhitta/threadpool@latest",
+    "name": "threadpool"
+  },
+  {
+    "desc": "Go library for simple UDP transmission",
+    "get": "go get github.com/mjwhitta/udpfrags@latest",
+    "name": "udpfrags"
+  },
+  {
+    "desc": "Windows API/constants, identity, and WinHTTP/WinINet for Go",
+    "get": "go get github.com/mjwhitta/win@latest",
+    "name": "win"
+  },
+  {
+    "desc": "Automagic Go/CGO cross-compiling",
+    "get": "go install github.com/mjwhitta/xgo/cmd/xgo@latest",
+    "name": "xgo"
+  }
+]
